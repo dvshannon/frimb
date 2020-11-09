@@ -1,0 +1,17 @@
+{
+  "name": "frimb-server",
+  "version": "1.0.0",
+  "description": "frimb server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node index.js"
+  },
+  "author": "Deyon Shannon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "socketio": "^1.0.0"
+  }
+}
